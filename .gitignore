@@ -1,0 +1,108 @@
+# ============================================================
+# Unreal Engine 5 - solo / portfolio project
+# Put this file in the same folder as your .uproject
+# Rename it to: .gitignore
+# ============================================================
+
+# --- Engine generated (do not commit) ---
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+FileOpenOrder/
+Packaged/
+Releases/
+
+# Crash / dump / debug
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.idb
+*.ipch
+*.tlog
+*.lastbuildstate
+*.vcxproj.user
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# Local logs and temp
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*~
+
+# --- Visual Studio / Rider / VS Code ---
+.vs/
+.vsconfig
+.idea/
+.vscode/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.VC.opendb
+x64/
+x86/
+ARM64/
+[Dd]ebug/
+[Rr]elease/
+[Rr]elWithDebInfo/
+[Dd]ebugGame/
+[Dd]evelopment/
+*.opensdf
+*.sdf
+*.cachefile
+ipch/
+
+# Unreal-generated project files (regenerate with right-click .uproject)
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# --- OS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# --- Content you usually should NOT version ---
+# Packed builds
+*.pak
+*.ucas
+*.utoc
+
+# Local shader / DDC leftovers if they appear at root
+ShaderAssetInfo.bin
+
+# Autosaves inside Saved already ignored; extra patterns:
+*_BuiltData.uasset
+
+# --- Python / tooling ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# --- Optional: ignore bulky raw source art if you keep it in project ---
+# Uncomment if RawContent is only for local work:
+# RawContent/
+
+# --- Keep these (do not ignore) ---
+# Content/
+# Config/
+# Source/
+# Plugins/
+# *.uproject
+# .gitattributes
+# README.md
